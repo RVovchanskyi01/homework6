@@ -1,0 +1,9 @@
+{application, homework6,
+ [
+  {description, "Homework 6 Cache Application"},
+  {vsn, "1.0"},
+  {modules, [homework6, homework6_sup, homework6_server]},
+  {applications, [kernel, stdlib]},
+  {registered, [homework6_sup]},
+  {mod, {homework6, []}}
+ ]}.
